@@ -1,6 +1,5 @@
-<br/>
-
 <img src="https://github.com/AlexanderMattheis/Cross-Dating/blob/master/crossdating_icon_large.png" width="128" height="128">
+
 # Cross-Dating of Intra-Annual<br/>Wood Density Series
 <a name="introduction"></a>
 The age of wood pieces can be determined by annual rings. 
