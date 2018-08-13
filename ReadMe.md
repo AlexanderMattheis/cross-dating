@@ -54,7 +54,7 @@ These libraries can be installed with the command
 `install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))`.
 Perhaps you have to install the right version for correct execution of the code!
 
-In *addition*, MICA has to be installed.
+In **addition**, MICA has to be installed.
 A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#installation).
 It should be enough to execute the command `install.packages("rJava")`.
 The current Version of MICA in the `libraries`-folder is 2.02.
@@ -63,20 +63,20 @@ Therefore, you have install the Java runtime.
 were successfully tested within this project.
 
 ### Quick-Test
-The different approaches can be easily tested and executed
+The different approaches can be easily tested
 after you have installed the necessary libraries.
 Set up the working directory to the folder containing
 the file called `Main.R`.
 The function `Main.interface()` which is executed
 by the `Main.main`-function contains preset examples to test the approaches.
-Uncomment with `Ctrl+Shift+C` the selected lines of an approach you want execute. 
+Uncomment with `Ctrl+Shift+C` there the selected lines of an approach you want execute. 
 Then select all code with `Ctrl+A` in the `Main.R` and press `Ctrl+Enter`.
 The execution takes a few minutes. 
 Meanwhile, the finished number of samples and 
 different information is written into the console to give the user a visual feedback.
 
 To execute the unit-tests, just go into the folder `tests`
-and execute the file `run_tests.R`. Do not set the folder as the working directory!
+and execute the file `run_tests.R`. Do **not** set the folder as the working directory!
 	
 ## Interface
 The interface allows you executing each 
