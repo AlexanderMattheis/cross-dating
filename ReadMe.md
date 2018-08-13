@@ -1,6 +1,6 @@
 <br/>
 
-![Cross-Dating Icon](crossdating_icon_large.png)
+<img src="https://github.com/AlexanderMattheis/Cross-Dating/blob/master/crossdating_icon_large.png" width="128" height="128">
 # Cross-Dating of Intra-Annual<br/>Wood Density Series
 <a name="introduction"></a>
 The age of wood pieces can be determined by annual rings. 
@@ -16,11 +16,11 @@ By this it becomes one of the most accurate, existing approaches in dendrochrono
 - [Introduction](#introduction)
 - [Installation](#installation)
 	- [Quick-Test](#quick-test)
-- [Conventions](#conventions)
 - [Interface](#interface)
 	- [Input](#input)
 	- [Output](#output)
 	- [Provided Functions](#provided-functions)
+- [Conventions](#conventions)
 	
 ## Installation
 It has been used different libraries for visualization, simplification, testing and fast code execution.
@@ -52,7 +52,7 @@ Essential libraries for fast and nice code:
 
 
 These libraries can be installed with the command 
-`install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))` <br/>
+`install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))`.
 Perhaps you have to install the right version for correct execution of the code!
 
 In *addition*, MICA has to be installed.
@@ -79,82 +79,6 @@ different information is written into the console to give the user a visual feed
 To execute the unit-tests, just go into the folder `tests`
 and execute the file `run_tests.R`. Do not set the folder as the working directory!
 	
-## Conventions
-#### Assignments
-R allows the `=`-operator as the assignment-operator, but we use `<-` for assignments instead.
-
-
-#### Classes
-The class name is also the name of the file, and it is written behind the property or function e.g.
-
-```r
-Plotter.__extendedMode <- TRUE;
-
-Plotter.getLogNormalDistributionPlot <- function(scores, fit, color, print) {
-	...
-}
-```
-
-like in C++.
-
-#### Constants
-Almost all constant values
-like paths, strings, symbols, filenames are stored in the `Defaults.R`.
-So everything except functional strings 
-like `dotted` or `histogram` is stored there.
-
-#### Debugging
-To avoid sourcing the same class two times
-and by this deactivating breakpoints, there is 
-in every class an import-boolean written 
-in big letters and named like the class:
-
-```r
-EXERCISE_1_IMPORTED <- TRUE;  # to avoid a reimport by the "Main.R"-class after sourcing this file
-```
-This import-boolean is set, 
-when the class is sourced for example
-after setting a breakpoint.
-If you now execute the `Main`-*class* source code, 
-it is automatically checked if the boolean already exists
-and a set breakpoint in *class* `Exercise1` won't be deactivated. 
-```Exercise1``` is not resourced 
-because of an existence check-up in `Main`:
-
-```r
-if(!exists("EXERCISE_1_IMPORTED")) source("Exercise1.R");
-```
-
-By not using this technique you have otherwise to uncomment 
-the sourcing `source("Exercise1.R")` of the *class* `Exercise1` 
-in *class* `Main`. And that every time you 
-want to debug the *class* `Exercise1`. <br/>
-
-**Hint:**	It is not allowed to have two classes with the same name!
-
-
-#### Visibility
-Visibility follows the Python programming style 
-by just marking functions as protected or private. <br/>
-Functions with two underscores e.g.
-
-```r
-Exercise1.__getSubpatterns <- function(patternY, subpatternsIntervals) {
-	...
-}
-```
-are private functions. <br/>
-
-And functions with one underscore e.g.
-
-```r
-Alignment._createAlignment <- function(path, sequenceA, sequenceB) {
-	...
-}
-```
-
-are protected functions.
-
 ## Interface
 The interface allows you executing each 
 base approach presented in the theoretical part.
@@ -322,3 +246,79 @@ and afterwards the Bucket Approach on the amount of potentially correct years fo
 
 *Output:* 
 - `{matrix}` the matrix of possible dates
+
+## Conventions
+#### Assignments
+R allows the `=`-operator as the assignment-operator, but we use `<-` for assignments instead.
+
+
+#### Classes
+The class name is also the name of the file, and it is written behind the property or function e.g.
+
+```r
+Plotter.__extendedMode <- TRUE;
+
+Plotter.getLogNormalDistributionPlot <- function(scores, fit, color, print) {
+	...
+}
+```
+
+like in C++.
+
+#### Constants
+Almost all constant values
+like paths, strings, symbols, filenames are stored in the `Defaults.R`.
+So everything except functional strings 
+like `dotted` or `histogram` is stored there.
+
+#### Debugging
+To avoid sourcing the same class two times
+and by this deactivating breakpoints, there is 
+in every class an import-boolean written 
+in big letters and named like the class:
+
+```r
+EXERCISE_1_IMPORTED <- TRUE;  # to avoid a reimport by the "Main.R"-class after sourcing this file
+```
+This import-boolean is set, 
+when the class is sourced for example
+after setting a breakpoint.
+If you now execute the `Main`-*class* source code, 
+it is automatically checked if the boolean already exists
+and a set breakpoint in *class* `Exercise1` won't be deactivated. 
+```Exercise1``` is not resourced 
+because of an existence check-up in `Main`:
+
+```r
+if(!exists("EXERCISE_1_IMPORTED")) source("Exercise1.R");
+```
+
+By not using this technique you have otherwise to uncomment 
+the sourcing `source("Exercise1.R")` of the *class* `Exercise1` 
+in *class* `Main`. And that every time you 
+want to debug the *class* `Exercise1`. <br/>
+
+**Hint:**	It is not allowed to have two classes with the same name!
+
+
+#### Visibility
+Visibility follows the Python programming style 
+by just marking functions as protected or private. <br/>
+Functions with two underscores e.g.
+
+```r
+Exercise1.__getSubpatterns <- function(patternY, subpatternsIntervals) {
+	...
+}
+```
+are private functions. <br/>
+
+And functions with one underscore e.g.
+
+```r
+Alignment._createAlignment <- function(path, sequenceA, sequenceB) {
+	...
+}
+```
+
+are protected functions.
