@@ -243,7 +243,7 @@ the four approaches.
 <a name="Interface.computeDatesPerTreeApproach"></a>
 #### `Interface.computeDatesPerTreeApproach(consensusPath, consensusName, samplesPath, scoreType, bestYearsMax, save, fileName)`
 
-`Interface.computeDatesPerTreeApproach(..)` executes the Consensus Approach per sample.
+`Interface.computeDatesPerTreeApproach(..)` executes the Per-Tree Approach per sample.
 
 *Input parameters:* 
 - `consensusPath {string}` : the path to the consensus
