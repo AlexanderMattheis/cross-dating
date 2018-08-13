@@ -100,8 +100,7 @@ The inputs are `*.csv`-files with following structure:
 The rows with the same year correspond to a density profile.
 Optionally available, depending on the approach is the `characteristic`-column.
 It is implemented an approach with two-steps which can use ring-widths or maximum densities
-to speed up the dating procedure. Therefore, it uses only the
-most appropriate years from the ring-width or maximum densities based approach.
+to speed up the dating procedure. 
 And there this `characteristic`-column is used to store ring-widths or maximum densities.  
 Samples you want to date, must have a similar format.
 Concretely the column `year` is replaced by a column called `part`
@@ -252,7 +251,7 @@ R allows the `=`-operator as the assignment-operator, but we use `<-` for assign
 
 
 #### Classes
-The class name is also the name of the file, and it is written behind the property or function e.g.
+The class-name (here `Plotter`) is also the name of the class-file, and it is written behind the property or function e.g.
 
 ```r
 Plotter.__extendedMode <- TRUE;
