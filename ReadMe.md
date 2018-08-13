@@ -37,7 +37,7 @@ For visualizations and unit-testing following libraries are necessary:
 | [VennDiagram](https://doi.org/10.1186/1471-2105-12-35)       | 1.6.2     | to create Venn- and Euler-diagrams             |
 
 These libraries can be installed with the command 
-`install.packages(c("ggplot2", "gridExtra", "reshape2", "scales", "testthat", "VennDiagram"))` <br/>
+`install.packages(c("ggplot2", "gridExtra", "reshape2", "scales", "testthat", "VennDiagram"))`,
 but also each package in the table is linked to its repository, paper or homepage.
 Perhaps you have to install the right version for correct execution of the code!
 
@@ -56,7 +56,7 @@ These libraries can be installed with the command
 Perhaps you have to install the right version for correct execution of the code!
 
 In *addition*, MICA has to be installed.
-A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#RI).
+A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#installation).
 It should be enough to execute the command `install.packages("rJava")`.
 The current Version of MICA in the `libraries`-folder is 2.02.
 Therefore, you have install the Java runtime.
