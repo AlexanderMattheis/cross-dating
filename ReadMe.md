@@ -24,6 +24,28 @@ By this it becomes one of the most accurate, existing approaches in dendrochrono
 ## Installation
 It has been used different libraries for visualization, simplification, testing and fast code execution.
 
+Essential libraries for fast and nice code:
+
+| Library                                                   |Version    | Description                                                       |
+|:----------------------------------------------------------|:----------|:------------------------------------------------------------------|
+| [fitdistrplus](https://github.com/cran/fitdistrplus)      | 1.09      | fitting distributions to data	            						|
+| [plyr](https://github.com/hadley/plyr)                    | 1.8.4     | data reconversion with C++ calls    								|
+| [rlist](https://github.com/renkun-ken/rlist)              | 0.4.6.1   | to build complex data-structures and avoid unnecessary code       |
+| [stringr](https://github.com/tidyverse/stringr)           | 1.2.0     | for consistent usage of string-operations  						|
+
+
+These libraries can be installed with the command 
+`install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))`.
+Perhaps you have to install the right version for correct execution of the code!
+
+In **addition**, `rJava` has to be installed to execute MICA.
+A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#r-interface).
+It should be enough to execute the command `install.packages("rJava")`.
+The **modified** current version of MICA in the `libraries`-folder is 2.02.
+Therefore, you have install the Java runtime.
+[Java 8 Update 152](https://www.java.com/) together with [R 3.4.3](https://www.r-project.org/)
+were successfully tested within this project.
+
 For visualizations and unit-testing following libraries are necessary:
 
 | Library     					                               | Version   | Description
@@ -39,28 +61,6 @@ These libraries can be installed with the command
 `install.packages(c("ggplot2", "gridExtra", "reshape2", "scales", "testthat", "VennDiagram"))`,
 but also each package in the table is linked to its repository, paper or homepage.
 Perhaps you have to install the right version for correct execution of the code!
-
-Essential libraries for fast and nice code:
-
-| Library                                                   |Version    | Description                                                       |
-|:----------------------------------------------------------|:----------|:------------------------------------------------------------------|
-| [fitdistrplus](https://github.com/cran/fitdistrplus)      | 1.09      | fitting distributions to data	            						|
-| [plyr](https://github.com/hadley/plyr)                    | 1.8.4     | data reconversion with C++ calls    								|
-| [rlist](https://github.com/renkun-ken/rlist)              | 0.4.6.1   | to build complex data-structures and avoid unnecessary code       |
-| [stringr](https://github.com/tidyverse/stringr)           | 1.2.0     | for consistent usage of string-operations  						|
-
-
-These libraries can be installed with the command 
-`install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))`.
-Perhaps you have to install the right version for correct execution of the code!
-
-In **addition**, MICA has to be installed.
-A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#installation).
-It should be enough to execute the command `install.packages("rJava")`.
-The current Version of MICA in the `libraries`-folder is 2.02.
-Therefore, you have install the Java runtime.
-[Java 8 Update 152](https://www.java.com/) together with [R 3.4.3](https://www.r-project.org/)
-were successfully tested within this project.
 
 ### Quick-Test
 The different approaches can be easily tested
