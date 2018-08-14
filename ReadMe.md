@@ -39,7 +39,7 @@ These libraries can be installed with the command
 Perhaps you have to install the right version for correct execution of the code!
 
 In **addition**, `rJava` has to be installed to execute MICA.
-A manual, therefore, can be found [here](https://github.com/BackofenLab/MICA#r-interface).
+A manual can be found [here](https://github.com/BackofenLab/MICA#r-interface).
 It should be enough to execute the command `install.packages("rJava")`.
 The **modified** current version of MICA in the `libraries`-folder is 2.02.
 Therefore, you have install the Java runtime.
