@@ -125,7 +125,7 @@ whereas the `pValue`-column as well as the `score`-columns are
 only optionally available in the approaches Two-Step and Bucket.
 In the first column you can see the name of the dated sample, beneath
 you see the p-value for the rank 1 rated samples.
-Then a column with the rank 1 prediction and a column with the corresponding
+Then a column with the rank 1 prediction (= most probable start-year) and a column with the corresponding
 score. The user can specify the number of predictions, so there can also be
 rank 3 or rank 4 predictions.
 This matrix can automatically be stored as `*.csv`-file,
