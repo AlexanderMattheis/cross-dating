@@ -38,13 +38,14 @@ These libraries can be installed with the command
 `install.packages(c("fitdistrplus", "plyr", "rlist", "stringr"))`.
 Perhaps you have to install the right version for correct execution of the code!
 
-In **addition**, `rJava` has to be installed to execute MICA.
+In **addition**, `rJava` and the Java runtime 
+have to be installed to execute MICA.
 A manual can be found [here](https://github.com/BackofenLab/MICA#r-interface).
-It should be enough to execute the command `install.packages("rJava")`.
-The **modified** current version of MICA in the `libraries`-folder is 2.02.
-Therefore, you have install the Java runtime.
 [Java 8 Update 152](https://www.java.com/) together with [R 3.4.3](https://www.r-project.org/)
 were successfully tested within this project.
+It should be enough to execute the command `install.packages("rJava")`.
+In the `libraries`-folder extracted is [MICA 2.02](https://github.com/BackofenLab/MICA/releases).
+But the script `mica-functions.R` was extended. So it is not allowed to replace it without breaking the code.
 
 For visualizations and unit-testing following libraries are necessary:
 
