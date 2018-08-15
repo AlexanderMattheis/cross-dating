@@ -2,13 +2,13 @@
 
 # Cross-Dating of Intra-Annual<br/>Wood Density Series
 <a name="introduction"></a>
-The age of wood pieces can be determined by annual rings. 
-You can just measure the widths or maximum densities of individual rings 
+The correct dates of wood pieces can be determined by annual rings. 
+Therefore, one can just measure the widths or maximum densities of individual rings 
 and then shift them in a chronology with known dates to determine the exact age. 
 But such established approaches do not work well with short pieces, 
 i.e. with wood pieces containing only a few annual rings. Our new approach, however, is different. 
 It has been shown that it can accurately determine the date for even shorter wood pieces correctly. 
-Therefore, it uses the series of densities within a ring.
+Therefore, it uses series of densities within a ring.
 By this it becomes one of the most accurate, existing approaches in dendrochronology, today!
 
 ## Overview
