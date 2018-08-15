@@ -4,7 +4,7 @@
 <a name="introduction"></a>
 The correct dates of wood pieces can be determined by annual rings. 
 Therefore, one can just measure the widths or maximum densities of individual rings 
-and then shift them in a chronology with known dates to determine the exact age. 
+and then shift them in a chronology with known dates to determine the exact calendar year. 
 But such established approaches do not work well with short pieces, 
 i.e. with wood pieces containing only a few annual rings. Our new approach, however, is different. 
 It has been shown that it can accurately determine the date for even shorter wood pieces correctly. 
