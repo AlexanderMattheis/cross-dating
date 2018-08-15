@@ -356,15 +356,6 @@ Max-Densities
 [1] "#Rank 5 7/231"
 [1] "#BiggerRanks  28/231"
 
-6. Two-Step
-[1] "d"
-[1] "#Rank 1 161"
-[1] "#Rank 2 14"
-[1] "#Rank 3 8"
-[1] "#Rank 4 3"
-[1] "#Rank 5 4"
-[1] "#BiggerRanks  41"
-
 7. Voting
 Top-Years 1
 [1] "a"

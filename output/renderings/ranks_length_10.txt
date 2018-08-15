@@ -307,15 +307,6 @@ Max-Min
 [1] "#Rank 5 4/250"
 [1] "#BiggerRanks  136/250"
 
-6. Two-Step 
-[1] "d"
-[1] "#Rank 1 145"
-[1] "#Rank 2 17"
-[1] "#Rank 3 5"
-[1] "#Rank 4 7"
-[1] "#Rank 5 8"
-[1] "#BiggerRanks  68"
-
 7. Voting Minimum Length 8
 Top-Years 1
 [1] "a"

@@ -92,15 +92,6 @@
 [1] "#Rank 5 17/495"
 [1] "#BiggerRanks  195/495"
 
-6. Two-Step
-[1] "d"
-[1] "#Rank 1 171"
-[1] "#Rank 2 47"
-[1] "#Rank 3 29"
-[1] "#Rank 4 19"
-[1] "#Rank 5 16"
-[1] "#BiggerRanks  213"
-
 7. Voting
 Top-Years 1 
 [1] "a"
