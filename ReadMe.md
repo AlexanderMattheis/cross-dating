@@ -47,7 +47,7 @@ It should be enough to execute the command `install.packages("rJava")`.
 In the `libraries`-folder extracted is [MICA 2.02](https://github.com/BackofenLab/MICA/releases).
 But the script `mica-functions.R` was extended. So it is not possible to replace it without breaking the code.
 
-For visualizations and unit-testing, the following libraries are necessary:
+For visualizations and **unit-testing**, the following libraries are necessary:
 
 | Library     					                               | Version   | Description
 |:-------------------------------------------------------------|:----------|:-----------------------------------------------|
