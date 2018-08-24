@@ -47,7 +47,7 @@ It should be enough to execute the command `install.packages("rJava")`.
 In the `libraries`-folder extracted is [MICA 2.02](https://github.com/BackofenLab/MICA/releases).
 But the script `mica-functions.R` was extended. So it is not possible to replace it without breaking the code.
 
-For visualizations and **unit-testing**, the following libraries are necessary:
+For visualizations and unit-testing, the following libraries are necessary:
 
 | Library     					                               | Version   | Description
 |:-------------------------------------------------------------|:----------|:-----------------------------------------------|
@@ -78,7 +78,7 @@ different information is written into the console to give the user a visual feed
 
 To execute the unit-tests, just go into the folder `tests`
 and execute the file `run_tests.R`. Do **not** set the folder as the working directory
-and do not forget installing `testthat` and the other necessary [libraries](#installation)!
+and do not forget installing `testthat` and the other for visualizations necessary [libraries](#installation)!
 	
 ## Interface
 The interface allows you executing each 
