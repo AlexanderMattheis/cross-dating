@@ -40,7 +40,7 @@ Perhaps you have to install the right version for correct execution of the code!
 
 In **addition**, `rJava` and the Java runtime 
 have to be installed to execute MICA.
-A manual can be found [here](https://github.com/BackofenLab/MICA#RI).
+A manual can be found [here](https://github.com/BackofenLab/MICA#r-interface).
 [Java 8 Update 152](https://www.java.com/) together with [R 3.4.3](https://www.r-project.org/)
 were successfully tested within this project.
 It should be enough to execute the command `install.packages("rJava")`.
