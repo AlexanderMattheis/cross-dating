@@ -49,7 +49,7 @@ But the script `mica-functions.R` was extended. So it is not possible to replace
 
 For visualizations and unit-testing, the following libraries are necessary:
 
-| Library     					                               | Version   | Description
+| Library     					               | Version   | Description
 |:-------------------------------------------------------------|:----------|:-----------------------------------------------|
 | [ggplot2](http://ggplot2.org/)                               | 2.2.1     | grammar of graphics based plotting system      |
 | [gridExtra](https://github.com/cran/gridExtra)               | 2.3 	   | arranging ggplots in grids                     |
@@ -62,6 +62,8 @@ These libraries can be installed with the command
 `install.packages(c("ggplot2", "gridExtra", "reshape2", "scales", "testthat", "VennDiagram"))`,
 but also each package in the table is linked to its repository, paper or homepage.
 Perhaps you have to install the right version for correct execution of the code!
+
+**Hint:** During the installation, the dependencies of `ggplot2` may not be installed correctly. In this case you have to run  `install.packages("ggplot2")` again. 
 
 ### Quick-Test
 The different approaches can be easily tested
