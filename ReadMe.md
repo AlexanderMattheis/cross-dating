@@ -1,5 +1,10 @@
 <a href="https://www.youtube.com/watch?v=p4GZlmuU7d8&feature=youtu.be"><img src="https://github.com/AlexanderMattheis/Cross-Dating/blob/master/crossdating_icon_large.png" width="128" height="128"></a><br>
-(Click on the Icon to play the Video)
+(Click on the logo above to play the Video)
+
+**Paper:** [The potential of intra-annual density information for crossdating of short tree-ring series](https://www.sciencedirect.com/science/article/pii/S1125786520300175)<br>
+**Thesis:** [Cross-Dating of Intra-Annual Wood Density Series](http://www.bioinf.uni-freiburg.de/Lehre/Theses/MA_Alexander_Mattheis.pdf)
+
+**Further Information:** [Appendix](https://www.youtube.com/watch?v=9Y5pPdCLbSU)
 
 # Cross-Dating of Intra-Annual<br/>Wood Density Series
 <a name="introduction"></a>
