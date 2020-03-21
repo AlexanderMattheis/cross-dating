@@ -1,4 +1,4 @@
-<a href="https://www.youtube.com/watch?v=p4GZlmuU7d8&feature=youtu.be"><img src="https://github.com/AlexanderMattheis/Cross-Dating/blob/master/crossdating_icon_large.png" width="128" height="128"></a><br>
+<a href="https://www.youtube.com/watch?v=p4GZlmuU7d8&feature=youtu.be" target="_blank" rel="noopener"><img src="https://github.com/AlexanderMattheis/Cross-Dating/blob/master/crossdating_icon_large.png" width="128" height="128"></a><br>
 (Click on the Icon to play the Video)
 
 # Cross-Dating of Intra-Annual<br/>Wood Density Series
